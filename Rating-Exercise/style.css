@@ -1,0 +1,30 @@
+#hola{
+    width: 500px;
+    height: 300px;
+    margin-top: 25%;
+}
+
+#iconGroup{
+    font-size: 80px; 
+    color: #c2cad4;
+    cursor: pointer;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0.7rem;
+}
+
+.active{
+    color: #19ffd9;
+}
+
+i{
+    padding: 0.1em;
+}
+
+i:hover,
+#iconGroup > i:hover::before,
+#iconGroup > i:hover ~ i::before{
+    color:#19ffd9;
+  }
